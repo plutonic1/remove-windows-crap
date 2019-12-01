@@ -1,0 +1,2 @@
+netsh advfirewall firewall add rule name="Block Cortana Outbound Traffic" dir=out action=block program="%windir%\systemapps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe"enable=yes profile=any
+pause
